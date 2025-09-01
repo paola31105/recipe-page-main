@@ -1,0 +1,104 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Young Serif", serif;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 50px;
+    padding: 30px;
+    width: 700px;
+    justify-content: center;
+    margin-bottom: 50px;
+    line-height: 2;
+    color: hsl(30, 10%, 34%);
+}
+
+.omelette {
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    padding-bottom: 20px;
+    color: black;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    padding-top: 20px;
+}
+
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.ingredients {
+    padding-bottom: 20px;
+}
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.dva {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.jedan {
+    color:hsl(30, 10%, 34%);
+}
+
+.instructions ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.ingredients ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.prep-time ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    width: 100px;
+}
+
+.instructions {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
